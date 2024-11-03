@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284004937243",
+    "project_id": "blog-900b4",
+    "storage_bucket": "blog-900b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284004937243:android:2f00a3dd7ffcab768792be",
+        "android_client_info": {
+          "package_name": "blog.chaitanyav.xyz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsRfhflm_cZp3ileTkLuVwS3lff0yEp7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
