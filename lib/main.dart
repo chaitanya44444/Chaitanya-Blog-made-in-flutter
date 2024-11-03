@@ -1,20 +1,19 @@
-import 'package:blog/views/home.dart';
 import 'package:flutter/material.dart';
-
+import 'package:blog/views/home.dart'; 
 
 void main() {
-  runApp(MyApp());
-  
-} 
+  runApp(const MyApp()); 
+}
+
 class MyApp extends StatelessWidget {
+  const ({Key? key}) : super(key: key); 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue, 
-      ),
-      home: HomePage()
+      theme: ThemeData.dark(),
+      home: const HomePage(), 
     );
   }
 }
